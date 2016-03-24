@@ -1,4 +1,4 @@
-ATING BAR
+# RATING BAR
 
 Google rating bar doesn't perform my requirement, so I decided to do my own one.
 I took as a reference this one, done by kanytu [Custom-Rating-Bar](https://github.com/kanytu/custom-rating-bar)
@@ -20,6 +20,10 @@ I took as a reference this one, done by kanytu [Custom-Rating-Bar](https://githu
 </resources>
 ```
 Notice that size_animation, is the star size when you touch it.
+
+### Icons
+
+Icons should be choosen by you. I recommend this icon plugin generator. [Plugin](https://github.com/konifar/android-material-design-icon-generator-plugin)
 
 ## License
 

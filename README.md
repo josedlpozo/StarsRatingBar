@@ -25,6 +25,10 @@ Notice that size_animation, is the star size when you touch it.
 
 Icons should be choosen by you. I recommend this icon plugin generator. [Plugin](https://github.com/konifar/android-material-design-icon-generator-plugin)
 
+## Next Steps
+1. Tests UI
+2. Better touch performance
+
 ## License
 
 >Copyright (C) 2015

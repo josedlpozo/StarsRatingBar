@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="josedlpozo.com.ratingbar.MainActivity"
+    android:orientation="vertical">
+
+    <josedlpozo.com.ratingbar.StarsRatingBar
+        android:layout_width="match_parent"
+        android:id="@+id/my_rating_bar"
+        android:layout_height="150dp"
+        app:num_max_stars="3"
+        app:current_rate="3"
+        app:icon_star_full="@drawable/icon_star_full"
+        app:icon_star_empty="@drawable/icon_star_purple_empty"
+        app:size_animation="1.7">
+
+    </josedlpozo.com.ratingbar.StarsRatingBar>
+
+    <josedlpozo.com.ratingbar.StarsRatingBar
+        android:layout_width="match_parent"
+        android:id="@+id/my_rating_bar2"
+        android:layout_height="200dp">
+
+    </josedlpozo.com.ratingbar.StarsRatingBar>
+
+    <josedlpozo.com.ratingbar.StarsRatingBar
+        android:layout_width="match_parent"
+        android:id="@+id/my_rating_bar3"
+        android:layout_height="50dp">
+
+    </josedlpozo.com.ratingbar.StarsRatingBar>
+</LinearLayout>

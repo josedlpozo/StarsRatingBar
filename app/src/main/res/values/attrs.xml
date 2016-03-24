@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StarsRatingBar">
+        <attr name="num_max_stars" format="integer"/>
+        <attr name="current_rate" format="float"/>
+        <attr name="icon_star_full" format="reference"/>
+        <attr name="icon_star_empty" format="reference|integer"/>
+        <attr name="icon_star_half" format="reference|integer"/>
+        <attr name="indicator" format="boolean"/>
+        <attr name="step_by_half" format="boolean"/>
+        <attr name="size_animation" format="float"/>
+    </declare-styleable>
+</resources>
